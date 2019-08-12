@@ -71,5 +71,9 @@ int main() {
       cout << "Roman Convertsion: X" << endl;
       break;
     }
+    case 11: (userInput > 10 or userInput < 1);
+    {
+      cout << "Invalid, please select a number from 1-10. ";
+    }
   }
 }

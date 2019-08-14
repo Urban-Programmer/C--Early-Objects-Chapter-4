@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  //Program will multiply Month & Date to see if it matches 2 digit year.
+  
+  //Declaring Variables
+  int month;
+  int year;
+  int date;
+
+  //Print Statements and Inputs
+  cout << "Welcome, this program will multiple your month and your day to see if it matches your year. If it does match you have a magic number, if not then it's a normal number. " << endl;
+
+  //Request month
+  cout << "Month(ex: August would be 08 or 8): ";
+  cin >> month;
+  cout << endl;
+
+  //Request date
+  cout << "Date(ex: 27th would be 27): ";
+  cin >> date;
+  cout << endl;
+
+  //Request year
+  cout << "Year(ex: 1998 would be 98): ";
+  cin >> year;
+  cout << endl;
+
+  //Formula
+  if ((month * date) == year)
+  {
+    cout << "It's a magic number!" << endl;
+
+  }
+
+  else
+  {
+    cout << "Just a regular number" << endl;
+  }
+}
